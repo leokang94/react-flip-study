@@ -47,7 +47,10 @@ export default function UserCard({
 
         cardElement.animate(
           [
-            { transform: `translate(${tX}px, ${tY}px) scale(0.2)` },
+            {
+              transform: `translate(${tX}px, ${tY}px) scale(0.2)`,
+              opacity: 0
+            },
             { transform: "translate(0px, 0px)" }
           ],
           {
